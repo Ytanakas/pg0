@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+#global-nav{/*ナビゲーションメニュー*/
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 100%;
+}
+#global-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#global-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#global-nav a:hover{
+    background-color: #5a5a5a;
+}
+.gazou{/*画像*/
+    width: 300px;
+    margin-left: 500px;
+}
+.shoukai{
+    position: fixed;
+}
+.ball{
+    width: 300px;
+}
+.setumei{
+    margin-left: 300px;
+    position: absolute;
+}
+.asobit{/*アソビ画像*/
+    width: 300px;
+    margin: 5px;
+}
+.asetu,.se{
+    position: absolute;
+    margin-left: 320px;
+}
+.pin,.kitsune{
+    width: 300px;
+}
+.bare-{
+    width: 300px;
+}
+.se2,.udon{
+    position: absolute;
+    margin-left: 310px;
+}
